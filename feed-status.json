@@ -1,10 +1,10 @@
 {
-  "checkTime": "2026-09-28 16:10:31 (北京时间)",
+  "checkTime": "2026-10-05 16:15:32 (北京时间)",
   "total": 100,
-  "valid": 95,
-  "limited": 4,
-  "invalid": 1,
-  "successRate": "95.0%",
+  "valid": 94,
+  "limited": 6,
+  "invalid": 0,
+  "successRate": "94.0%",
   "feeds": [
     {
       "name": "OpenAI 博客",
@@ -359,11 +359,11 @@
     {
       "name": "阮一峰的网络日志",
       "url": "https://www.ruanyifeng.com/blog/atom.xml",
-      "status": "valid",
-      "valid": true,
-      "limited": false,
-      "statusCode": 200,
-      "error": null,
+      "status": "limited",
+      "valid": false,
+      "limited": true,
+      "statusCode": 403,
+      "error": "HTTP 403",
       "finalUrl": "https://www.ruanyifeng.com/blog/atom.xml"
     },
     {
@@ -519,11 +519,11 @@
     {
       "name": "Codrops",
       "url": "https://tympanus.net/codrops/feed/",
-      "status": "invalid",
+      "status": "limited",
       "valid": false,
-      "limited": false,
-      "statusCode": 410,
-      "error": "HTTP 410",
+      "limited": true,
+      "statusCode": 403,
+      "error": "HTTP 403",
       "finalUrl": "https://tympanus.net/codrops/feed/"
     },
     {
